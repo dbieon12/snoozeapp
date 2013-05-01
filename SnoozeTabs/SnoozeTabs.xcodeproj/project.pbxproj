@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F7AA65E17305869006A681D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7AA65D17305869006A681D /* UIKit.framework */; };
+		8F7AA66017305869006A681D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7AA65F17305869006A681D /* Foundation.framework */; };
+		8F7AA66217305869006A681D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7AA66117305869006A681D /* CoreGraphics.framework */; };
+		8F7AA66817305869006A681D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA66617305869006A681D /* InfoPlist.strings */; };
+		8F7AA66A17305869006A681D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA66917305869006A681D /* main.m */; };
+		8F7AA66E17305869006A681D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA66D17305869006A681D /* AppDelegate.m */; };
+		8F7AA67117305869006A681D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA66F17305869006A681D /* MainStoryboard_iPhone.storyboard */; };
+		8F7AA67417305869006A681D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA67217305869006A681D /* MainStoryboard_iPad.storyboard */; };
+		8F7AA67717305869006A681D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA67617305869006A681D /* FirstViewController.m */; };
+		8F7AA67917305869006A681D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA67817305869006A681D /* first.png */; };
+		8F7AA67B17305869006A681D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA67A17305869006A681D /* first@2x.png */; };
+		8F7AA67E17305869006A681D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA67D17305869006A681D /* SecondViewController.m */; };
+		8F7AA68017305869006A681D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA67F17305869006A681D /* second.png */; };
+		8F7AA68217305869006A681D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F7AA68117305869006A681D /* second@2x.png */; };
+		8F7AA68A17305B9E006A681D /* AddAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA68917305B9E006A681D /* AddAlarmViewController.m */; };
+		8F7AA69017306C63006A681D /* EditAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA68F17306C63006A681D /* EditAlarmViewController.m */; };
+		8F7AA6931731A2BF006A681D /* Alarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7AA6921731A2BF006A681D /* Alarm.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F7AA65917305869006A681D /* SnoozeTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoozeTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F7AA65D17305869006A681D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F7AA65F17305869006A681D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F7AA66117305869006A681D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F7AA66517305869006A681D /* SnoozeTabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnoozeTabs-Info.plist"; sourceTree = "<group>"; };
+		8F7AA66717305869006A681D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F7AA66917305869006A681D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F7AA66B17305869006A681D /* SnoozeTabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnoozeTabs-Prefix.pch"; sourceTree = "<group>"; };
+		8F7AA66C17305869006A681D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F7AA66D17305869006A681D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F7AA67017305869006A681D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8F7AA67317305869006A681D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8F7AA67517305869006A681D /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8F7AA67617305869006A681D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8F7AA67817305869006A681D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8F7AA67A17305869006A681D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8F7AA67C17305869006A681D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8F7AA67D17305869006A681D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8F7AA67F17305869006A681D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8F7AA68117305869006A681D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		8F7AA68817305B9E006A681D /* AddAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmViewController.h; sourceTree = "<group>"; };
+		8F7AA68917305B9E006A681D /* AddAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmViewController.m; sourceTree = "<group>"; };
+		8F7AA68E17306C63006A681D /* EditAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditAlarmViewController.h; sourceTree = "<group>"; };
+		8F7AA68F17306C63006A681D /* EditAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditAlarmViewController.m; sourceTree = "<group>"; };
+		8F7AA6911731A2BF006A681D /* Alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alarm.h; sourceTree = "<group>"; };
+		8F7AA6921731A2BF006A681D /* Alarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alarm.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F7AA65617305869006A681D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AA65E17305869006A681D /* UIKit.framework in Frameworks */,
+				8F7AA66017305869006A681D /* Foundation.framework in Frameworks */,
+				8F7AA66217305869006A681D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F7AA64E17305869006A681D = {
+			isa = PBXGroup;
+			children = (
+				8F7AA66317305869006A681D /* SnoozeTabs */,
+				8F7AA65C17305869006A681D /* Frameworks */,
+				8F7AA65A17305869006A681D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7AA65A17305869006A681D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AA65917305869006A681D /* SnoozeTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F7AA65C17305869006A681D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AA65D17305869006A681D /* UIKit.framework */,
+				8F7AA65F17305869006A681D /* Foundation.framework */,
+				8F7AA66117305869006A681D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F7AA66317305869006A681D /* SnoozeTabs */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AA66C17305869006A681D /* AppDelegate.h */,
+				8F7AA66D17305869006A681D /* AppDelegate.m */,
+				8F7AA66F17305869006A681D /* MainStoryboard_iPhone.storyboard */,
+				8F7AA67217305869006A681D /* MainStoryboard_iPad.storyboard */,
+				8F7AA67517305869006A681D /* FirstViewController.h */,
+				8F7AA67617305869006A681D /* FirstViewController.m */,
+				8F7AA67817305869006A681D /* first.png */,
+				8F7AA67A17305869006A681D /* first@2x.png */,
+				8F7AA67C17305869006A681D /* SecondViewController.h */,
+				8F7AA67D17305869006A681D /* SecondViewController.m */,
+				8F7AA67F17305869006A681D /* second.png */,
+				8F7AA68117305869006A681D /* second@2x.png */,
+				8F7AA66417305869006A681D /* Supporting Files */,
+				8F7AA68817305B9E006A681D /* AddAlarmViewController.h */,
+				8F7AA68917305B9E006A681D /* AddAlarmViewController.m */,
+				8F7AA68E17306C63006A681D /* EditAlarmViewController.h */,
+				8F7AA68F17306C63006A681D /* EditAlarmViewController.m */,
+				8F7AA6911731A2BF006A681D /* Alarm.h */,
+				8F7AA6921731A2BF006A681D /* Alarm.m */,
+			);
+			path = SnoozeTabs;
+			sourceTree = "<group>";
+		};
+		8F7AA66417305869006A681D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AA66517305869006A681D /* SnoozeTabs-Info.plist */,
+				8F7AA66617305869006A681D /* InfoPlist.strings */,
+				8F7AA66917305869006A681D /* main.m */,
+				8F7AA66B17305869006A681D /* SnoozeTabs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F7AA65817305869006A681D /* SnoozeTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F7AA68517305869006A681D /* Build configuration list for PBXNativeTarget "SnoozeTabs" */;
+			buildPhases = (
+				8F7AA65517305869006A681D /* Sources */,
+				8F7AA65617305869006A681D /* Frameworks */,
+				8F7AA65717305869006A681D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnoozeTabs;
+			productName = SnoozeTabs;
+			productReference = 8F7AA65917305869006A681D /* SnoozeTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F7AA65017305869006A681D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Matthew McHugh";
+			};
+			buildConfigurationList = 8F7AA65317305869006A681D /* Build configuration list for PBXProject "SnoozeTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F7AA64E17305869006A681D;
+			productRefGroup = 8F7AA65A17305869006A681D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F7AA65817305869006A681D /* SnoozeTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F7AA65717305869006A681D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AA66817305869006A681D /* InfoPlist.strings in Resources */,
+				8F7AA67117305869006A681D /* MainStoryboard_iPhone.storyboard in Resources */,
+				8F7AA67417305869006A681D /* MainStoryboard_iPad.storyboard in Resources */,
+				8F7AA67917305869006A681D /* first.png in Resources */,
+				8F7AA67B17305869006A681D /* first@2x.png in Resources */,
+				8F7AA68017305869006A681D /* second.png in Resources */,
+				8F7AA68217305869006A681D /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F7AA65517305869006A681D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7AA66A17305869006A681D /* main.m in Sources */,
+				8F7AA66E17305869006A681D /* AppDelegate.m in Sources */,
+				8F7AA67717305869006A681D /* FirstViewController.m in Sources */,
+				8F7AA67E17305869006A681D /* SecondViewController.m in Sources */,
+				8F7AA68A17305B9E006A681D /* AddAlarmViewController.m in Sources */,
+				8F7AA69017306C63006A681D /* EditAlarmViewController.m in Sources */,
+				8F7AA6931731A2BF006A681D /* Alarm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F7AA66617305869006A681D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7AA66717305869006A681D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F7AA66F17305869006A681D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7AA67017305869006A681D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8F7AA67217305869006A681D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F7AA67317305869006A681D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F7AA68317305869006A681D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F7AA68417305869006A681D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F7AA68617305869006A681D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoozeTabs/SnoozeTabs-Prefix.pch";
+				INFOPLIST_FILE = "SnoozeTabs/SnoozeTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F7AA68717305869006A681D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnoozeTabs/SnoozeTabs-Prefix.pch";
+				INFOPLIST_FILE = "SnoozeTabs/SnoozeTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F7AA65317305869006A681D /* Build configuration list for PBXProject "SnoozeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AA68317305869006A681D /* Debug */,
+				8F7AA68417305869006A681D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F7AA68517305869006A681D /* Build configuration list for PBXNativeTarget "SnoozeTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F7AA68617305869006A681D /* Debug */,
+				8F7AA68717305869006A681D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F7AA65017305869006A681D /* Project object */;
+}
